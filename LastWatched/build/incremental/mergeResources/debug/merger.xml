@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="show_list_activity"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/layout/show_list_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="show_list"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/menu/show_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_regular" >10dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="season" >Season
+                </string>
+                <string name="back" >Back
+                </string>
+                <string name="app_name" >Last Watched
+                </string>
+                <string name="new_show_btn" >New Show
+                </string>
+                <string name="episode" >Episode
+                </string>
+                <string name="show_title" >Show Title
+                </string>
+            </file>
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light.NoTitleBar" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light.NoTitleBar" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light.NoTitleBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="show_item"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/layout/show_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="show_activity"
+                path="/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/layout/show_activity.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/Users/tayloreke/android/LastWatched/LastWatched/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/tayloreke/android/LastWatched/LastWatched/src/debug/res" />
+    </dataSet>
+
+</merger>

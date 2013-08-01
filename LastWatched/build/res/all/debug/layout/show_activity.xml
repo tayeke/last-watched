@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  tools:context=".ShowActivity">
+
+  <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/back"
+      android:id="@+id/backButton"
+      android:padding="@dimen/padding_regular"
+      android:textColor="#FFF"
+      android:background="#444"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:onClick="callShowListActivity"
+      android:layout_column="0"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="New Text"
+      android:id="@+id/showTitle"
+      android:layout_weight="1"
+      android:padding="@dimen/padding_regular"
+      android:background="#000"
+      android:textColor="#FFF"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:layout_column="1"/>
+
+  </TableRow>
+
+  <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/season"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:layout_weight="1"
+      android:layout_column="0"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/episode"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:layout_weight="1"
+      android:layout_column="1"/>
+  </TableRow>
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:measureWithLargestChild="false">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="20"
+      android:id="@+id/showSeason"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:layout_weight="1"
+      android:layout_column="0" />
+
+    <Button
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:layout_weight="1"
+      android:layout_column="1"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:background="#444"
+      android:textColor="#FFF"
+      android:clickable="false"
+      android:layout_marginRight="@dimen/padding_regular"
+      android:onClick="decrementSeason"/>
+
+    <Button
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="+"
+      android:layout_weight="1"
+      android:layout_column="2"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:background="#444"
+      android:textColor="#FFF"
+      android:layout_marginRight="@dimen/padding_regular"
+      android:onClick="incrementSeason"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="20"
+      android:id="@+id/showEpisode"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:layout_weight="1"
+      android:layout_column="3"/>
+
+    <Button
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:layout_weight="1"
+      android:layout_column="4"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:background="#444"
+      android:textColor="#FFF"
+      android:layout_marginRight="@dimen/padding_regular"
+      android:onClick="decrementEpisode"/>
+
+    <Button
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="+"
+      android:layout_weight="1"
+      android:layout_column="5"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"
+      android:background="#444"
+      android:textColor="#FFF"
+      android:layout_marginRight="@dimen/padding_regular"
+      android:onClick="incrementEpisode"/>
+
+  </LinearLayout>
+
+</TableLayout><!-- From: file:/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/layout/show_activity.xml -->

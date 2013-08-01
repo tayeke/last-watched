@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent">
+
+  <TextView
+    android:id="@+id/showItemTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="New Text"
+    android:padding="@dimen/padding_regular"
+    android:textAppearance="?android:textAppearanceLarge"/>
+
+  <TextView
+    android:id="@+id/showItemProgress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:padding="@dimen/padding_regular"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:background="#444"
+    android:textColor="#FFF" />
+
+</TableRow><!-- From: file:/Users/tayloreke/android/LastWatched/LastWatched/src/main/res/layout/show_item.xml -->

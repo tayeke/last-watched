@@ -1,0 +1,49 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ShowListActivity">
+
+
+  <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+      android:id="@+id/newShowFormTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="@string/show_title"
+      android:background="#000"
+      android:textColor="#FFF"
+      android:layout_weight="1"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:padding="@dimen/padding_regular"/>
+
+    <Button
+      android:id="@+id/newShowFormButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/new_show_btn"
+      android:background="#444"
+      android:textColor="#FFF"
+      android:padding="@dimen/padding_regular"
+      android:textAppearance="?android:textAppearanceLarge"
+      android:onClick="addNewShow"/>
+
+  </TableRow>
+
+  <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <ListView
+      android:id="@+id/showList"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      tools:listitem="@android:layout/simple_list_item_1"/>
+  </TableRow>
+
+</TableLayout>
