@@ -2,17 +2,18 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1375341107000 734 1222ffa6ac23c59d5e9cc2a3777ea1cadadddcd8 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$id.class
-1375341107000 446 3d05d6d18938940fa71def6ac91c7ac767843aa9 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$style.class
+1375381712000 446 6aad66369eda4a6bdceb9a83942fdf4ba1f1362f /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$style.class
 1375327609000 355 c8706978b7b88072fdd35798b5b98bbec5aabaaa /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/BuildConfig.class
-1375328042000 5019 ee161f726cd023378272a67326a0795c55ba8696 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/DBTools.class
+1375380436000 5247 feb7e2c1b21e9583a50bc7c0edb394b9c992a7e1 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/DBTools.class
 1375327609000 355 9e1e2620f6dbfbe1193768ef4f7450efc72f8d55 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$attr.class
-1375347405000 4268 7ad54b75706bc4f88a39e46e9f05161d4081a945 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowListActivity.class
+1375380583000 4382 c779a9ab5652b37eeabbb7fceb134712859efc86 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowListActivity.class
 1375329105000 422 d0270dee0b87f722b78b446cb6e607b573e6e02e /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$drawable.class
-1375341107000 727 b5099c90712d0d0e18227bca127a928159867062 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R.class
+1375381712000 727 898ae91c5dd0b2d964a2fd43f39cd5f55bed3cef /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R.class
 1375341604000 1339 309386ad6a9620bd891d01f86787ac3e1e8c690f /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowListActivity$1.class
+1375381712000 1555 367874980b50a56dff4d4e4c27efd67b84bde193 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowActivity$1.class
 1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
-1375347472000 3396 e3f63b775acba9045d785a3fe32a4ba8d7439cfc /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowActivity.class
+1375381712000 4469 95e26c327bcdb42bbe46316b5df302521c30d61f /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/ShowActivity.class
 1375329105000 515 fb9dbd6aab797869df62a21cc83e2e20679efefd /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$dimen.class
-1375341107000 611 d9aad5f70f1f437bef3cb981e9c6cdceb50ee5bb /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$string.class
+1375381712000 774 03c46fc2821f82c071908e3147fe735f0ee47de4 /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$string.class
 1375341107000 493 1f2f3084a1cbd230e1e8437f86c541b440663e6f /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$layout.class
 1375341107000 408 7edfd29f32732a1ee4365e556b0e7b5baa9f62be /Users/tayloreke/android/LastWatched/LastWatched/build/classes/debug/com/example/lastwatched/R$menu.class

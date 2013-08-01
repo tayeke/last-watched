@@ -44,7 +44,7 @@ public class DBTools extends SQLiteOpenHelper {
 
   }
 
-  public void insertShow(HashMap<String, String> newValues) {
+  public String insertShow(HashMap<String, String> newValues) {
 
     SQLiteDatabase db = this.getWritableDatabase();
 
@@ -52,9 +52,11 @@ public class DBTools extends SQLiteOpenHelper {
 
     values.put("title", newValues.get("title"));
 
-    db.insert("shows", null, values);
+    long id = db.insert("shows", null, values);
 
     db.close();
+
+    return String.format("%d", id);
 
   }
 

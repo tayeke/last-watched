@@ -1,6 +1,8 @@
 package com.example.lastwatched;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -64,7 +66,7 @@ public class ShowActivity extends Activity {
     int curr = Integer.parseInt(show.get("episode").toString());
 
     if(curr > 0) {
-      show.put("episode", String.format("%d",curr-1));
+      show.put("episode", String.format("%d", curr-1));
       showEpisode.setText(show.get("episode"));
       dbTools.updateShow(show);
     }
@@ -72,7 +74,7 @@ public class ShowActivity extends Activity {
   }
 
   public void incrementSeason(View view) {
-    show.put("season", String.format("%d", Integer.parseInt(show.get("season").toString())+1));
+    show.put("season", String.format("%d", Integer.parseInt(show.get("season").toString()) + 1));
     showSeason.setText(show.get("season"));
     dbTools.updateShow(show);
   }
@@ -85,6 +87,33 @@ public class ShowActivity extends Activity {
       showSeason.setText(show.get("season"));
       dbTools.updateShow(show);
     }
+  }
+
+  public void deleteShow(View view) {
+
+    DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+
+      @Override
+      public void onClick(DialogInterface dialogInterface, int which) {
+
+        if(which == DialogInterface.BUTTON_POSITIVE) {
+
+          dbTools.deleteShow(show.get("id"));
+
+          Intent theIntent = new Intent(getApplication(), ShowListActivity.class);
+          startActivity(theIntent);
+
+        }
+
+      }
+
+    };
+
+    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    builder.setMessage(getBaseContext().getString(R.string.delete_dialog))
+      .setPositiveButton(getBaseContext().getString(R.string.dialog_delete_show_yes), dialogClickListener)
+      .setNegativeButton(getBaseContext().getString(R.string.dialog_delete_show_no), dialogClickListener).show();
+
   }
 
 }

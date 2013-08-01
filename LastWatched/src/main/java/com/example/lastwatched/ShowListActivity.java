@@ -72,11 +72,14 @@ public class ShowListActivity extends Activity {
     newValues.put("title", newShowFormTitle.getText().toString());
 
 
-    dbTools.insertShow(newValues);
+    String rowId = dbTools.insertShow(newValues);
 
     newShowFormTitle.setText("");
 
+    newValues.put("id", rowId);
     newValues.put("progress", "S0E0");
+    newValues.put("season", "0");
+    newValues.put("episode", "0");
 
     showArray.add(0, newValues);
 

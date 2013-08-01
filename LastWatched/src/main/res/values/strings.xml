@@ -8,5 +8,9 @@
     <string name="new_show_btn">New Show</string>
     <string name="show_title">Show Title</string>
     <string name="back">Back</string>
+    <string name="delete_show">Delete Show</string>
+    <string name="delete_dialog">Are you sure you want to remove this show permanently?</string>
+    <string name="dialog_delete_show_yes">Yes</string>
+    <string name="dialog_delete_show_no">No</string>
 
 </resources>
